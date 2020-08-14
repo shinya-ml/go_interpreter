@@ -5,8 +5,9 @@ const (
 	EOF     = "EOF"
 
 	// 識別子, リテラル
-	IDENT = "IDENT" // add, foobar, x, y
-	INT   = "INT"   // 1, 33, ...
+	IDENT  = "IDENT" // add, foobar, x, y
+	INT    = "INT"   // 1, 33, ...
+	STRING = "STRING"
 
 	// 演算子
 	ASSIGN   = "="
@@ -26,10 +27,12 @@ const (
 	COMMA     = ","
 	SEMICOLON = ";"
 
-	LPAREN = "("
-	RPAREN = ")"
-	LBRACE = "{"
-	RBRACE = "}"
+	LPAREN   = "("
+	RPAREN   = ")"
+	LBRACE   = "{"
+	RBRACE   = "}"
+	LBRACKET = "["
+	RBRACKET = "]"
 
 	// キーワード
 	FUNCTION = "FUNCTION"
